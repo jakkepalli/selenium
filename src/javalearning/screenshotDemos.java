@@ -28,5 +28,6 @@ public class screenshotDemos {
         FileUtils.copyFile(f, new File("D:\\AWS Devops Learning\\homePageScreenshot.png"));
         
         driver.close();
+        System.out.println("comment for screenshot");
     }
 }

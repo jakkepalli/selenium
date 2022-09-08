@@ -31,7 +31,7 @@ driver.manage().window().maximize();
 driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(30));
 //driver.findElement(By.xpath("li a[href='selenium-python'] img")).click();
 //String print=driver.findElement(By.className(".entry-title")).getText();
-//System.out.println(print);
+//System.out.println(print2);
 System.out.println(driver.getTitle());
 String currentURL = driver.getCurrentUrl();
 //String currentPageSource = driver.getPageSource();

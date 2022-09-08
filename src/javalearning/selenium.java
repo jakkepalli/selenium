@@ -63,6 +63,7 @@ alert.dismiss();
 //driver.quit();
 driver.navigate().to("https://demoqa.com/nestedframes");
 //driver.switchTo().frame("#frame1");
+//driver.quit();
 driver.quit();
 System.out.println("printing for Git2 checking purpose");
 

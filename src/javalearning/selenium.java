@@ -33,6 +33,7 @@ driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(30));
 //String print=driver.findElement(By.className(".entry-title")).getText();
 //System.out.println(print);
 System.out.println(driver.getTitle());
+System.out.println("Training completed successfully");
 String currentURL = driver.getCurrentUrl();
 //String currentPageSource = driver.getPageSource();
 System.out.println(currentURL);
